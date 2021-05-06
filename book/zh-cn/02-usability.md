@@ -676,7 +676,7 @@ class Magic<int,
 template<typename Require, typename... Args> class Magic;
 ```
 
-变长参数模板也能被直接调整到到模板函数上。传统 C 中的 `printf` 函数，
+变长参数模板也能被直接调整到模板函数上。传统 C 中的 `printf` 函数，
 虽然也能达成不定个数的形参的调用，但其并非类别安全。
 而 C++11 除了能定义类别安全的变长参数函数外，
 还可以使类似 `printf` 的函数能自然地处理非自带类别的对象。
